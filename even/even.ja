@@ -1,12 +1,8 @@
-function even() {
-var num1, out;
-num1 = document.getElementById('n1').value;
-num1 = parseInt (num1);
-out = if (num1 % 2 == 0) {
- alert ("четно");} else {
-    alert ("нечетно); 
-    }
-document.getElementById('out').innerHTML = result;
 
+let out = document.getElementById ('out');
+let tmp = '';
 
+for (let i=0; i<=100; i++) {
+    tmp = tmp + i + ' ';
 }
+out.innerHTML = tmp;
